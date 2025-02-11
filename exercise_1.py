@@ -7,7 +7,7 @@
 
 # SOLUTION:
 
-print("""\
+print("""
 Constance Chimdiya Ihekerem
 Harmony Road
 Lagos, Nigeria
