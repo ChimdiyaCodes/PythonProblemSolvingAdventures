@@ -34,15 +34,14 @@ while True:
         while True:
             convert_again = input(
                 """\nWould you like to make another conversion? : 
-                    \nEnter \n\nY for YES \n\nN for NO: """)
-            if convert_again.upper() in ['Y', 'YES']:
-                break  # Break the inner loop to do another calculation
-            elif convert_again.upper() in ['N', 'NO']:
-                print("\nThank you for using the converter!")
-                exit()  # Exit the program)
-            else:
-                print("\nInvalid input! Please enter Y for yes or N for no.")
-                continue  # Keep asking for valid input
+                    \nEnter \n\nY for YES \n\nN for NO: """).upper()
+            if convert_again in ['Y', 'YES', 'N', 'NO']:
+                break
+            print("Invalid input! Please enter Y or N.")
+
+        if convert_again in ['N', 'NO']:
+            print("\nThank you for using the converter!")
+            break
 
     except ValueError:
         print("Invalid input. Please enter a numeric value.")
