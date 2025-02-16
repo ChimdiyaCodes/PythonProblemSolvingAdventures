@@ -2,8 +2,7 @@
 
 # In this exercise, you will create a program that begins by reading a measurement
 # in feet from the user. Then your program should display the equivalent distance in
-# inches, yards and miles. Use the Internet to look up the necessary conversion factors
-# if you don’t have them memorized.
+# inches, yards and miles.
 
 # Solution:
 
@@ -40,7 +39,7 @@ while True:
                 break  # Break the inner loop to do another calculation
             elif convert_again.upper() in ['N', 'NO']:
                 print("\nThank you for using the converter!")
-                exit()  # Exit the function (and program)
+                exit()  # Exit the program)
             else:
                 print("\nInvalid input! Please enter Y for yes or N for no.")
                 continue  # Keep asking for valid input
