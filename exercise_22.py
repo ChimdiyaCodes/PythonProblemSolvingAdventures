@@ -40,7 +40,7 @@ while True:
             # display results
             print(f"\nTriangle Details:")
             print(f"Sides: {s1:.2f}, {s2:.2f}, {s3:.2f} {unit}")
-            print(f"Area: {area:.2f} {unit}²")
+            print(f"The Area of the triangle: {area:.2f} {unit}²")
             break
         else:
             print("\nThese sides cannot form a valid triangle.")
