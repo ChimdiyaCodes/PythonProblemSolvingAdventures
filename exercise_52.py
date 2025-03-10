@@ -38,7 +38,7 @@ def grade_points_to_letter_grade():
                 continue  # Skip the rest of the loop and prompt again
 
             # Handle A+ case (4.0 or greater)
-            if grade_point >= 4.0:
+            if grade_point == 4.0:
                 print(f"\nThe letter grade for {grade_point} is: A+")
                 break  # Exit the loop after valid input
 
