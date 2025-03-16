@@ -44,7 +44,8 @@ total_points = 0
 for grade in grades:
     total_points += grade_to_points.get(grade, 0.0)  # look up the grade point
 
-# step 4: calculate the gpa
+# step 4: calculate the gpaa
+
 if len(grades) > 0:
     gpa = total_points / len(grades)
 
