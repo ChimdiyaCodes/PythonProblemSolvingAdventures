@@ -23,7 +23,7 @@ def decimal_to_binary():
     while True:
         try:
             # Get user input
-            decimal_str = input("Enter a decimal number: ").strip()
+            decimal_str = input("\nEnter a decimal number: ").strip()
 
             # Check for empty input
             if not decimal_str:
@@ -60,7 +60,7 @@ def decimal_to_binary():
             if is_negative:
                 result = "-" + result
 
-            print(f"The binary equivalent of {original} is: {result}")
+            print(f"\nThe binary equivalent of {original} is: {result}")
             return result
 
         except ValueError:
