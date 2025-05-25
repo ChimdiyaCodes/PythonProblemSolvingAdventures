@@ -29,11 +29,9 @@ def good_password(password):
     return upper_character and lower_character and digit
 
 
-print("\n-----Good Password Checker------")
-print("This program checks if your password is good. It must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number.")
-
-
 def main():
+    print("\n-----Good Password Checker------")
+    print("This program checks if your password is good. It must be at least 8 characters long and include at least one uppercase letter, one lowercase letter, and one number.")
     password = input("\nEnter your password: ")
     if good_password(password):
         print("\nYour password is good.")
