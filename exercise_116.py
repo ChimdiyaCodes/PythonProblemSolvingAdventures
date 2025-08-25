@@ -81,7 +81,7 @@ while True:
             continue
 
         result = pig_latin_sentence(user_input)
-        print("Pig Latin translation:", result)
+        print("\nPig Latin translation:", result)
         break
 
     except Exception as e:
