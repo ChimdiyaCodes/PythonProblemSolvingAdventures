@@ -3,8 +3,6 @@
 # A sublist is a list that makes up part of a larger list. A sublist may be a list containing
 # a single element, multiple elements, or even no elements at all. For example, [1],
 # [2], [3] and [4] are all sublists of [1, 2, 3, 4]. The list [2, 3] is also a
-# This copy belongs to 'acha04'
-# Exercise 125: Does a List contain a Sublist? 59
 # sublist of [1, 2, 3, 4], but [2, 4] is not a sublist [1, 2, 3, 4] because
 # the elements 2 and 4 are not adjacent in the longer list. The empty list is a sublist of
 # any list. As a result, [] is a sublist of [1, 2, 3, 4]. A list is a sublist of itself,
